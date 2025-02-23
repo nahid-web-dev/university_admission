@@ -30,7 +30,7 @@ const HomePage = () => {
     <div className="min-h-svh relative flex flex-col">
       <Header />
       <main className="flex-grow container mx-auto px-4 py-8">
-        <div className='bg-gradient-to-br from-teal-400 via-blue-400 to-purple-500 p-4 my-8 rounded-lg'>
+        <div className='bg-gradient-to-br from-teal-500 via-blue-500 to-purple-500 p-4 my-8 rounded-lg'>
           <h1 className="text-4xl font-bold text-center mb-4 text-white">
             Welcome to Mawlana Bhashani Science and Technology University
           </h1>
@@ -39,7 +39,7 @@ const HomePage = () => {
           </h2>
         </div>
 
-        <div className="bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg p-6 mb-8">
+        <div className="bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg p-6 mb-8">
           <h3 className="text-2xl font-bold text-white mb-4">About MBSTU</h3>
           <p className="text-white mb-4">
             Mawlana Bhashani Science and Technology University (MBSTU) is a leading institution dedicated to advancing knowledge in science, technology, engineering, and mathematics. Founded with the vision of nurturing innovative minds, MBSTU has become a hub for cutting-edge research and technological breakthroughs.
@@ -51,7 +51,7 @@ const HomePage = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {universityHighlights.map((highlight, index) => (
-            <div key={index} className="bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg p-6 text-white">
+            <div key={index} className="bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg p-6 text-white">
               <highlight.icon className="text-4xl mb-4" />
               <h4 className="text-xl font-semibold mb-2">{highlight.title}</h4>
               <p>{highlight.description}</p>
@@ -60,7 +60,7 @@ const HomePage = () => {
         </div>
 
         <div className="mt-12 text-center">
-          <a href="/about" className="bg-gradient-to-r from-teal-400 to-blue-500 text-white font-bold py-3 px-6 rounded-full transition-all hover:from-blue-500 hover:to-teal-400">
+          <a href="/about" className="bg-gradient-to-r from-teal-500 to-blue-500 text-white font-bold py-3 px-6 rounded-full transition-all hover:from-blue-500 hover:to-teal-500">
             Learn More About Our Programs
           </a>
         </div>
